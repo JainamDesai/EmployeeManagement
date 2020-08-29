@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EmployeeInfo</servlet-name>
+  	<display-name>EmployeeInfo</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.EmployeeInfo</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginControll</servlet-name>
+  	<display-name>LoginControll</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.LoginControll</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Success</servlet-name>
+  	<display-name>Success</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.Success</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLoginSys</servlet-name>
+  	<display-name>AdminLoginSys</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.AdminLoginSys</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeeInfo</servlet-name>
+  	<url-pattern>/EmployeeInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginControll</servlet-name>
+  	<url-pattern>/LoginControll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Success</servlet-name>
+  	<url-pattern>/Success</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginSys</servlet-name>
+  	<url-pattern>/AdminLoginSys</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>AdminLogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
